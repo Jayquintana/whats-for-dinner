@@ -12,6 +12,7 @@ red - #ee5253
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -27,8 +28,8 @@ main {
 }
 
 input {
-  margin-top: 8%;
-  margin-left: 15%;
+  margin-top: 7%;
+  margin-left: 13%;
 }
 
 .title-and-button {
@@ -58,9 +59,18 @@ input {
 .dish-output-section {
   background-color: rgba(225, 225, 225, .9);
   margin-top: 5%;
-  width: 30%;
-  height: 50vh;
+  width: 35%;
+  height: 55vh;
 }
+
+.dish-output-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
 
 .side-dish,
 .main-dish,
@@ -70,11 +80,64 @@ font-size: 20px;
 font-family: 'Roboto', sans-serif;
 }
 
-
 .looking-for-title {
   height: 5%;
   margin-top: 10%;
   font-size: 28px;
   font-family:  'Roboto', sans-serif;
   text-align: center;
+}
+
+.lets-cook-button {
+  margin-top: 4%;
+  margin-left: 15%;
+  height: 12%;
+  width: 38%;
+  background-color: #0fb9b1;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.you-should-make {
+font-size: 20px;
+font-style: italic;
+margin-top: 35%;
+}
+.dish-output-title{
+  /* height: 50%; */
+font-size: 40px;
+
+}
+
+.dish-output-title,
+.you-should-make {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.title-output-box {
+
+}
+
+.clear-button-box{
+    height: 50%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    content:
+}
+
+.clear-button {
+  width: 17%;
+  height: 20%;
+  margin-right: 10%;
+  background-color: #95a5a6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
 }
