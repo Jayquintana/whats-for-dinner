@@ -11,26 +11,27 @@
     <main>
       <section class="dish-input-section">
         <h1 class="looking-for-title">What are You Looking For?</h1>
-        <input type="radio" name = "dish-selection">
+        <input type="radio" name = "dish-selection" id="sides">
         <label class="side-dish" for="dish-type">Side</label>
         <br>
-        <input type="radio" name = "dish-selection">
+        <input type="radio" name = "dish-selection" id="main">
         <label class="main-dish" for="dish-type">Main Dish</label>
         <br>
-        <input type="radio" name = "dish-selection">
+        <input type="radio" name = "dish-selection" id="desserts">
         <label class="dessert-dish" for="dish-type">Dessert</label>
         <br>
-        <input type="radio" name = "dish-selection">
+        <input type="radio" name = "dish-selection" id="meal">
         <label class="entire-meal" for="dish-type">Entire Meal</label> <br>
         <button class="lets-cook-button">Let's Cook!</button>
       </section>
       <section class="dish-output-section">
-        <div class="title-output-box">
+        <img class="cook-pot-img" src="assets/cookpot.svg" alt="Cookpot image">
+        <div class="title-output-box hidden">
           <h3 class="you-should-make">You Should make:</h3>
           <h1 class="dish-output-title">Black Forest Cake!</h1>
         </div>
-        <div class="clear-button-box">
-          <button class="clear-button">CLEAR</button>
+        <div class="clear-button-box" >
+          <button class="clear-button hidden">CLEAR</button>
         </div>
       </section>
     </main>
