@@ -16,6 +16,10 @@ red - #ee5253
   font-family: 'Roboto', sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 body{
   background-image: url('assets/burger-friends.jpg');
   background-size: cover;
@@ -144,4 +148,9 @@ font-size: 40px;
   border-radius: 5px;
   color: white;
   font-size: 16px;
+}
+
+.cook-pot-img {
+  height: 50%;
+  margin-top: 20%;
 }
