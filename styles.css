@@ -121,7 +121,7 @@ font-family: 'Roboto', sans-serif;
 .you-should-make {
 font-size: 20px;
 font-style: italic;
-margin-top: 35%;
+margin-top: 18%;
 }
 
 .dish-output-title{
@@ -131,7 +131,7 @@ font-size: 40px;
 }
 
 .clear-button-box{
-    height: 50%;
+    height: 150px;
     margin-bottom: 5%;
     display: flex;
     align-items: flex-end;
