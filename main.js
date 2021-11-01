@@ -50,7 +50,7 @@ var desserts = [
 
 var meals = [sides, mains, desserts];
 
-// str8 to tha dom
+
 
 //sections and elements
 var dishSelections = document.querySelector(".dish-input-section");
@@ -63,6 +63,7 @@ var letsCookButton = document.querySelector(".lets-cook-button");
 var clearButton = document.querySelector(".clear-button");
 
 // radio buttons
+var allRadioButtons = document.querySelectorAll("input")
 var sideRadioButton = document.querySelector("#sides");
 var mainRadioButton = document.querySelector("#main");
 var dessertsRadioButton = document.querySelector("#desserts");
@@ -70,18 +71,19 @@ var mealRadioButton = document.querySelector("#meal");
 
 //event listeners
 letsCookButton.addEventListener('click', createDish);
+clearButton.addEventListener('click', clearInputs);
 
 
 function getRandomDish (array){
  return Math.floor(Math.random() * array.length);
 }
 
-function hideElement(variable) {
-  variable.classList.add("hidden");
+function hideElement(element) {
+  element.classList.add("hidden");
 }
 
-function showElement(variable){
-  variable.classList.remove("hidden");
+function showElement(element){
+  element.classList.remove("hidden");
 }
 
 
@@ -93,6 +95,7 @@ function checkButtonInput(radioButton, dishArray) {
   dishOutputTitle.innerText = dishArray[getRandomDish(dishArray)];
   }
 }
+
 
 function createEntireMeal(side, main, dessert) {
 if (mealRadioButton.checked) {
@@ -108,4 +111,10 @@ function createDish() {
   checkButtonInput(mainRadioButton, mains);
   checkButtonInput(dessertsRadioButton, desserts);
   createEntireMeal(sides, mains, desserts);
+}
+
+function clearInputs() {
+  showElement(cookPotImg);
+  hideElement(clearButton);
+  hideElement(titleOutputBox);
 }
