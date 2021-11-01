@@ -1,6 +1,6 @@
 # What's for Dinner?
 
-![App Demo]()
+![App Demo](https://github.com/Jayquintana/whats-for-dinner/blob/main/assets/whats%20for%20din%20gif.gif)
 
 ## About
 Whats For Dinner? Now that is a question every person has to continuously ask for the rest of our lives. Why not leave it up to our application to answer that question for you? Whats For Dinner is a website that randomly selects a side, main, and a dessert dish for you to cook, so you don't have to worry at the end of a busy night what to make for dinner!
