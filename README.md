@@ -7,6 +7,10 @@ Whats For Dinner? Now that is a question every person has to continuously ask fo
 
 ## Try it out! [try it](https://jayquintana.github.io/whats-for-dinner/)
 
+### Technologies
+
+* HTML, CSS, JavaScript
+
 ### Instructions
 
 1. When the site first is loaded you will see two things. The dish selection, and the dish output!
